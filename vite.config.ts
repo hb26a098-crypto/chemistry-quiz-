@@ -5,9 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: process.env['chemistry-quiz-GITHUB_ACTIONS'] ? './' : '/',
-
-
+    base: process.env.GITHUB_ACTIONS? '/chemistry-quiz-/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
