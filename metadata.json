@@ -1,0 +1,6 @@
+{
+  "name": "化学クイズゲーム仕様書",
+  "description": "化学クイズゲームの仕様書を管理・作成するプロジェクトです。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
